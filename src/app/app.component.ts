@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Samyvic';
+
+  phone = '';
+  phoneName = '';
+  
+  
+  getName(){
+    this.phoneName = this.phone;
+  }
+
+
+  
+    
+  
+
 }
